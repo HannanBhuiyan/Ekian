@@ -108,17 +108,106 @@
     .footer_menu {
         margin-top: 40px;
     }
+
+    .info_right_para {
+        right: 55px;
+    }
+    .customer_title h2 {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width:880px) {
      
 }
 @media screen and (max-width:767px) {
-     
+    .info_right_content img {
+        width: 100%;
+    }
+    .info_right_para {
+        right: 29px;
+        top: 28px;
+    }
+    .footer_top_content h2 {
+        font-size: 30px;
+    }
+    .footer_top_content h6 {
+        font-size: 18px;
+    }
+    .footer_bottom_content h3 {
+        font-size: 22px;
+    }
+    .footer_menu {
+        flex-wrap: wrap;
+    }
+    .menu_list {
+        margin-bottom: 30px;
+    }
+    .analysis_section {
+        margin: 108px 0px 153px;
+    }
+    .footer_fm .input input {
+        width: 100%;
+    }
+    .analysis_title h2 {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width:575px) {
-    
+    .hero_content_list ul li {
+        font-size: 24px;
+    }
+    .hero_content p {
+        font-size: 16px;
+    }
+    .info_right_para p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .info_right_para {
+        right: 12px;
+        top: 19px;
+    }
+    .customer_title:before {
+        display: none;
+    }
+    .review_title h2 {
+        font-size: 20px;
+    }
+    .footer_top_content h2 {
+        font-size: 24px;
+    }
+    .info_right_content img, .info_left_content img {
+        width: 100%;
+        height: auto;
+    }
+    .info_para p {
+        font-size: 23px;
+        line-height: 27px;
+    }
+    .menu_section {
+        padding: 60px 0px 0px;
+    }
+    .mobile_img {
+        margin-top: 10px;
+    }
+    .customer_title h2 {
+        font-size: 26px;
+    }
+    .menu_list ul {
+        flex-wrap: wrap;
+    }
+    .client_logo_list ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .analysis_title h2 {
+        font-size: 18px;
+    }
 }
 
 
@@ -127,5 +216,14 @@
 }
 
 @media screen and (max-width:320px) {
+    .info_right_para p {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .info_right_para {
+        right: 12px;
+        top: 14px;
+    }
     
 }

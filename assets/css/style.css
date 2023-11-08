@@ -127,7 +127,7 @@ a.active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    background: #232527;
     padding: 18px;
 }
 .mobile-menu .header-item .header-item-right span i {
@@ -556,5 +556,31 @@ a.active {
 .footer_contact_list ul li {
     list-style: none;
     padding-right: 20px;
+}
+
+.scroll_top {
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    animation: animationTop 3s linear infinite;
+}
+
+@keyframes animationTop {
+    0% {bottom: 50px;}
+    50% {bottom: 100px;}
+    100% { bottom: 50px; }
+}
+
+.footer_section {
+    position: relative;
+}
+
+button.scroll_btn {
+    background: #625FEB;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
 }
 /* FOOTER SECTION END HERE */

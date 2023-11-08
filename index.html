@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ekian</title>
+    <title>Ekian-Home</title>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,7 +55,7 @@
                         <div class="hero_content_list">
                             <ul>
                                 <li>La tua <span><img src="assets/images/b1.png" alt="image"></span> </li>
-                                <li> <img src="assets/images/b2.png" alt=""> <span>nuova</span> <img src="assets/images/b3.png" alt="image"> </li>
+                                <li> <img src="assets/images/b2.png" alt=""> <span>nuova</span> <img class="mobile_img" src="assets/images/b3.png" alt="image"> </li>
                                 <li>azienda <img class="hero_img" src="assets/images/b4.png" alt=""> digitale</li>
                             </ul>
                         </div>
@@ -103,6 +103,9 @@
                             <a href="#">Contatti</a>
                         </li> 
                     </ul>
+                    <div class="menu_right_btn text-center mt-5">
+                        <a href="#">Collaboriamo assieme</a>
+                    </div>
                 </div>
             </div>
     </div>
@@ -285,6 +288,7 @@
     </div>
     <!-- service section end here -->
 
+
     <!-- analysis section start here -->
     <div class="analysis_section">
         <div class="container">
@@ -299,6 +303,7 @@
         </div>
     </div>
     <!-- analysis section end here -->
+
 
     <!-- client review section start here -->
     <div class="client_review_section">
@@ -388,6 +393,7 @@
     </div>
     <!-- client review section end here -->
 
+
     <!-- footer section start here -->
     <div class="footer_section">
         <div class="footer_section_top">
@@ -453,15 +459,22 @@
                 </div>
            </div>
         </div>
+        <div class="scroll_top">
+            <button id="scrollBtn" class="scroll_btn"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
     </div>
     <!-- footer section end here -->
- 
- 
+
 
     <script src="assets/js/jquery-3.6.4.min.js"></script>
     <script src="assets/js/fontawesome.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script>
+        document.getElementById("scrollBtn").addEventListener("click", function() { 
+            window.scrollTo(0, 0); 
+        }); 
+    </script>
  
 </body>
 </html>
