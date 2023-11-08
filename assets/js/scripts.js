@@ -25,3 +25,7 @@ $('.header-menu ul li a').on('click', function(e) {
     }
 });		
  
+// loader
+$(window).on( "load", function() {
+    $('.preloader').fadeOut(1000);
+});
