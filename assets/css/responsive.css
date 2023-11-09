@@ -20,9 +20,6 @@
         bottom: 17px;
         left: 28px;
     }
-    .customer_title:before {
-        left: 0;
-    }
 }
 
 @media screen and (max-width:1339px) {
@@ -42,6 +39,9 @@
     }
     .hero_inner {
         background-size: auto;
+    }
+    .single_service {
+        background-size: contain;
     }
     .info_para p {
         font-size: 28px;
@@ -70,6 +70,16 @@
     .client_logo_list ul li {
         margin-bottom: 15px;
     }
+    .service_footer_left span {
+        font-size: 18px;
+    }
+    .service_footer_right a ,
+    .con_item_left_list ul li span, 
+    .con_item_right_list ul li span ,
+    .accordion {
+        font-size: 17px;
+    }
+    
 }
 
 @media screen and (max-width:1023px) {
@@ -77,6 +87,49 @@
 }
  
 @media screen and (max-width:991px) {
+    .new_customer_section  {
+        margin-bottom: 100px;
+    }
+    .reduce_production {
+        padding: 100px 0px;
+    }
+    .website_service_info {
+        margin: 80px 0px 100px;
+    }
+    .timeless_section {
+        position: relative;
+        padding: 100px 0px 50px;
+        overflow: hidden;
+    }
+    .accordion_title h2 {
+        font-size: 24px;
+    }
+    .website_service_info_image.timeless_content {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .con_item_right_list ul {
+        margin: 0;
+        padding: 0;
+    }
+    .con_item_list {
+        flex-wrap: wrap;
+    }
+    .website_service_info_image {
+        margin-top: 50px;
+    }
+    .accordion:after {
+        font-size: 20px;
+    }
+    button.accordion.active {
+        margin-bottom: 20px;
+    }
+    .accordion {
+        font-size: 17px;
+    }
+    .accordion_item { 
+        padding: 13px 36px 12px;
+    }
     .mobile-menu {
         display: block;
     } 
@@ -152,13 +205,90 @@
     .analysis_title h2 {
         font-size: 24px;
     }
+    .customer_title:before {
+        left: 0;
+    }
+    .customer_title_content p {
+        font-size: 16px; 
+    }
+    .customer_title_content h2 {
+        font-size: 25px; 
+    }
 }
 
 @media screen and (max-width:575px) {
+    .con_item_left_list {
+        padding-right: 0px;
+    }
+    .common_btn a {
+        font-size: 14px;
+    }
+    .hero_content_list ul li {
+        font-size: 23px;
+        line-height: 27px;
+    }
+    .con_title p {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-top: 13px;
+    }
+    .website_service_info_content h2, .con_title h2, .service_title h2 {
+        font-size: 22px;
+    }
+    .service_footer_inner {
+        padding: 20px;
+    }
+    .service_footer_left span {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .service_footer_inner,
+    .service_footer_left {
+        flex-wrap: wrap;
+    }
+    .service_footer_left  {
+        padding-bottom: 20px;
+    }
+    .footer_fm {
+        flex-wrap: wrap;
+    }
+    .input {
+        margin-bottom: 20px;
+    }
+    .reduce_image { 
+        width: 100%; 
+        background-size: contain;
+        padding: 0px 30px;
+    }
+    .reduce_image_content {
+        width: auto;
+    }
+    .reduce_image_content  h2 {
+        font-size: 50px;
+    }
+    .reduce_image_content p {
+        font-size: 16px;
+    }
+    .con_btn a {
+        padding: 10px 12px;   
+        font-size: 12px; 
+    }
+    span.s_btn {
+        padding: 11px 25px 9px 44px;
+        right: -88px;
+        z-index: -1;
+        position: absolute;
+        font-size: 12px;
+    }
+    .website_service_info_image img {
+        width: 100%;
+    }
     .hero_content_list ul li {
         font-size: 24px;
     }
-    .hero_content p {
+    .hero_content p,
+    .website_service_info_content p{
         font-size: 16px;
     }
     .info_right_para p {
@@ -208,6 +338,14 @@
     .analysis_title h2 {
         font-size: 18px;
     }
+    .faq_section {
+        margin: 100px 0px;
+    }
+    .accordion_item {
+        padding: 13px 15px 12px;
+    }
+    
+    
 }
 
 

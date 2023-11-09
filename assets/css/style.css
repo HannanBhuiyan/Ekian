@@ -753,15 +753,15 @@ li.service_ul {
     width: 40px;
     height: 40px;
     background: #a1ff9970;
-    text-align: center;
-    line-height: 41px;
+    text-align: center; 
     margin-right: 15px;
     border-radius: 100%;
     display: inline-block;
 }
 
 .check_icon i {
-    color: #A1FF99;
+    color: #A1FF99;    
+    padding: 13px;
 }
 
 
@@ -928,7 +928,7 @@ span.s_btn {
     margin-bottom: 20px;
     background: #232527;
     border-radius: 20px; 
-    padding: 10px 40px;
+    padding: 17px 40px 20px;
 }
 
 .accordion { 
@@ -954,13 +954,13 @@ span.s_btn {
     font-weight: bold;
     float: right;
     margin-left: 5px;
-    font-size: 43px;
+    font-size: 40px;
     color: #fff;
 }
 
 .active:after {
     content: "\f077";
-    font-size: 43px;
+    font-size: 40px;
     color: #fff;
 }
 
