@@ -699,4 +699,174 @@ li.service_ul {
 .common_btn.ser_btn {
     margin-top: 20px;
 }
+/* Consultation section */
+.consultation_section {
+    background-color: #232527;
+    color: #fff;
+    padding: 75px 0px;
+}
+.con_icon_list ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.con_icon_list ul li {
+    list-style: none;
+    padding-right: 20px;
+}
+.con_item_list {
+    display: flex;
+    align-items: center;
+}
+.con_item_left_list ul li, .con_item_right_list ul li  {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.con_item_left_list ul li span, .con_item_right_list ul li span {
+    font-size: 20px;
+    font-weight: 400;
+}
+.con_item_left_list ul {
+    margin: 0;
+    padding: 0;
+}
+.con_item_left_list {
+    padding-right: 70px;
+}
+.con_title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.con_title p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.con_title {
+    padding: 15px 0px 20px;
+}
+
+.check_icon {
+    width: 40px;
+    height: 40px;
+    background: #a1ff9970;
+    text-align: center;
+    line-height: 41px;
+    margin-right: 15px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.check_icon i {
+    color: #A1FF99;
+}
+
+
+
+span.s_btn {
+    background: #226F16;
+    padding: 13px 39px 10px 75px;
+    border-radius: 30px;
+    top: 0;
+    right: -148px;
+    z-index: -1;
+    position: absolute;
+    font-size: 18px;
+}
+
+.con_btn {
+    position: relative;
+    z-index: 1;
+    margin-top: 26px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+.con_btn:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.con_btn a {
+    padding: 10px 50px;
+    background: #625FEB;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block; 
+    position: relative;
+}
+ 
+/* timeless section */
+.timeless_section {
+    position: relative;
+    padding: 230px 0px;
+    overflow: hidden;
+}
+.timeless_content {
+    position: relative;
+}
+.bg-circle-img {
+    position: absolute;
+    top: -112px;
+    right: 0;
+    transform: rotate(-33deg);
+}
+
+/* reduce production */
+.reduce_production {
+    padding: 100px 0px 190px;
+}
+.reduce_image {
+    background-image: url('../images/service/reduce.png');
+    background-repeat: no-repeat;
+    width: 460px;
+    margin: auto;
+    height: auto;
+}
+.reduce_image_content p {
+    font-size: 24px;
+    color: #fff;
+}
+.reduce_image_content h2 {
+    font-size: 128px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+.reduce_image_content {
+    padding: 47px 0px;
+    width: 325px;
+    margin: auto;
+}
+
+/*  new customer section */
+
+.new_customer_section {
+    margin-bottom: 170px;
+}
+.new_customer_image img {
+    width: 100%;
+}
+.customer_title_content {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 55px;
+}
+.customer_title_content p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.customer_title_content h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.service_page_inner {
+    padding-top: 0;
+}
+
 /* WEBSITE SERVICE PAGE */
