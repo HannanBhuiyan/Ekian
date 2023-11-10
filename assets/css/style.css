@@ -1135,4 +1135,13 @@ span.author_sub_title {
     padding: 27px;
 }
 
+h1.swissglass_title {
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.swissglass_studio_section {
+    padding: 50px 0px 100px;
+}
 /* CASI SINGLE PAGE */

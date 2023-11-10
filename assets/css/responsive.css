@@ -31,6 +31,12 @@
 }
 
 @media screen and (max-width:1199px) {
+    .casi_duegi_responsive_img img {
+        width: 100%;
+    }
+    .casi_duegi_content {
+        padding: 70px;
+    }
     .review_body p {
         padding-right: 0;
     }
@@ -87,6 +93,9 @@
 }
  
 @media screen and (max-width:991px) {
+    .responsive_reverse {
+        flex-direction: column-reverse;
+    }
     .ser_img.casi_img img {
         width: 100%;
     }
@@ -220,6 +229,35 @@
 }
 
 @media screen and (max-width:575px) {
+    .casi_content_top h2 {
+        font-size: 28px;
+    }
+    .hero_content_box h3 {
+        font-size: 26px;
+    }
+    .hero_content_box {
+        padding: 22px;
+    }
+    .author_title {
+        flex-wrap: wrap;
+    }
+    .check_icon_box i {
+        font-size: 43px; 
+        padding: 18px;
+    }
+    .check_icon_box {
+        width: 80px;
+        height: 80px; 
+    }
+    .casi_duegi_content h2 {
+        font-size: 20px;
+    }
+    .casi_duegi_content p {
+        font-size: 16px;
+    }
+    .casi_duegi_content {
+        padding: 20px;
+    }
     .con_item_left_list {
         padding-right: 0px;
     }
@@ -270,7 +308,9 @@
     .reduce_image_content  h2 {
         font-size: 50px;
     }
-    .reduce_image_content p {
+    .reduce_image_content p,
+    .hero_content_box p,
+    .casi_content_top p {
         font-size: 16px;
     }
     .con_btn a {
