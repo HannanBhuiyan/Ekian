@@ -31,6 +31,9 @@
 }
 
 @media screen and (max-width:1199px) {
+    .error_area {
+        background-size: cover;
+    }
     .casi_duegi_responsive_img img {
         width: 100%;
     }
@@ -85,6 +88,9 @@
     .accordion {
         font-size: 17px;
     }
+    .contact_title h2, .contact_content h2 {
+        font-size: 32px;
+    }
     
 }
 
@@ -93,6 +99,9 @@
 }
  
 @media screen and (max-width:991px) {
+    .contact_content {
+        margin-top: 50px;
+    }
     .responsive_reverse {
         flex-direction: column-reverse;
     }
@@ -229,6 +238,13 @@
 }
 
 @media screen and (max-width:575px) {
+    .error_area {
+        background-size: cover;
+    }
+    .error_content {
+        padding: 100px 0px;
+        color: #fff;
+    }
     .casi_content_top h2 {
         font-size: 28px;
     }

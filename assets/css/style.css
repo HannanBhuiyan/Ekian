@@ -1145,3 +1145,148 @@ h1.swissglass_title {
     padding: 50px 0px 100px;
 }
 /* CASI SINGLE PAGE */
+
+
+/* CONTACT PAGE START HERE */
+.contact_section {
+    padding-bottom: 100px;
+}
+.contact_hero_inner {
+    background-image: url('../images/contact_banner.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.contact_hero_content {
+    padding: 250px 0px 200px;
+}
+.contact_hero_content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact_hero_content p {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+.contact_title {
+    margin-bottom: 31px;
+}
+
+.contact_title h2,
+.contact_content h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.contact_title p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact_fm textarea {
+    border-radius: 20px;
+}
+.contact_btn button,
+.contact_title,
+.contact_fm input,
+.contact_hero_content, 
+.contact_fm textarea,
+.contact_content,
+.contact_fm input::placeholder,
+.contact_fm textarea::placeholder {
+    color: #fff;
+}
+.contact_fm input {
+    border-radius: 40px;
+}
+.contact_fm input, .contact_fm textarea {
+    width: 100%;
+    background: #353535;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 15px 25px;
+    margin-bottom: 12px;
+    border: 1px solid transparent;
+}
+.contact_fm input::placeholder,  .contact_fm textarea::placeholder {
+    font-size: 16px;
+}
+.contact_fm input:focus,
+.contact_fm textarea:focus {
+    border: 1px solid var(--primary-color);
+}
+.contact_btn button {
+    background: var(--primary-color);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 13px 50px;
+    border: none;
+    display: inline-block;
+    outline: none;
+    border-radius: 40px;
+}
+.contact_content h2 {
+    padding-bottom: 40px;
+}
+
+/* .contact_content {
+    position: relative;
+} */
+
+
+.cont_item {
+    padding-bottom: 30px;
+}
+
+.cont_item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+}
+.cont_item h3::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-color: #515092;
+    width: 150px;
+    height: 2px;
+}
+.cont_item p {
+    font-size: 20px;
+}
+.contact_inner {
+    padding-right: 20px;
+}
+.contact_content {
+    padding-left: 20px;
+}
+/* CONTACT PAGE END HERE */
+
+/* ERROR PAGE START HERE */
+
+.error_area {
+    background-image: url('../images/error.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.error_content {
+    padding: 250px 0px 380px;
+    color: #fff;
+}
+.error_content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+.error_content p {
+    font-size: 24px;
+    font-weight: 400;
+}
+/* ERROR PAGE END HERE */
