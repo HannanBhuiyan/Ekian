@@ -87,6 +87,9 @@
 }
  
 @media screen and (max-width:991px) {
+    .ser_img.casi_img img {
+        width: 100%;
+    }
     .new_customer_section  {
         margin-bottom: 100px;
     }

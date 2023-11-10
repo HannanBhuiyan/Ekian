@@ -970,14 +970,12 @@ span.s_btn {
     font-weight: 600;
     margin-bottom: 22px;
 }
-
 .accordion_item_para {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     padding: 0;
 }
-
 .panel {
     color: #fff;
     padding: 15px 20px;
@@ -990,4 +988,151 @@ span.s_btn {
     font-size: 16px;
     font-weight: 400;
 }
+.casi_title {
+    text-align: center;
+    color: #fff;
+}
+.casi_title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 20px;
+}
+.casi_title p {
+    font-size: 24px;
+    padding-bottom: 80px;
+}
+.casi_studio_section {
+    padding: 120px 0px 200px;
+}
+
 /* WEBSITE SERVICE PAGE */
+
+
+/* CASI SIGNGLE PAGE */
+
+
+.case_hero_inner {
+    background-image: url('../images/case_hero_circle.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+}
+
+.case_hero_content {
+    padding: 120px 0px 70px;
+}
+
+.casi_content_top {
+    color: #fff;
+}
+
+.casi_content_top h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.casi_content_top p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero_content_box {
+    background: #232527;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.hero_content_box h3 {
+    font-size: 32px;
+}
+
+.hero_content_box p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+/* case duegi management  */
+
+.case_duegi_management_area {
+    background-image: url('../images/case_management_circle.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.case_duegi_management_review {
+    padding-top: 82px;
+}
+
+.case_duegi_management_bottom {
+    padding: 110px 0px 180px;
+}
+
+.casi_duegi_info_second_section {
+    padding: 140px 0px 100px;
+}
+
+.author_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+span.author_sub_title {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.author_title h2 {
+    margin-top: 0;
+}
+
+.author_title {
+    margin-top: 20px;
+}
+
+.case_duegi_impact_section {
+    padding: 150px 0px;
+}
+.casi_duegi_content {
+    background: #232527;
+    color: #fff;
+    text-align: center;
+    padding: 70px 170px;
+    border-radius: 10px;
+}
+
+.casi_duegi_content p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.casi_duegi_content h2 {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 30px 0px 9px;
+}
+
+.check_icon_box {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: #a1ff998a;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.check_icon_box i {
+    font-size: 50px;
+    color: #A1FF99;
+    padding: 27px;
+}
+
+/* CASI SINGLE PAGE */
